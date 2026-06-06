@@ -1,5 +1,7 @@
 # @particle-academy/fancy-auto-common
 
+[![Fancified](art/fancified.svg)](https://particle.academy)
+
 Shared **headless** primitives for autonomous UX drivers — the common core
 behind [`agent-integrations`](https://github.com/Particle-Academy/agent-integrations)
 (agent-driven UX) and [`fancy-flow`](https://github.com/Particle-Academy/fancy-flow)'s
