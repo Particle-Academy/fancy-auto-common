@@ -1,6 +1,6 @@
 {
   "name": "@particle-academy/fancy-auto-common",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Shared headless primitives for autonomous UX drivers — the activity bus, effect-dispatch registry, per-actor undo stack, and presence types used by both agent-integrations (agent-driven UX) and fancy-flow's FlowRunnerUx (flow-driven UX). Zero runtime dependencies; React is an optional peer for the /react hook.",
   "repository": {
     "type": "git",
