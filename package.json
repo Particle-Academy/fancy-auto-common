@@ -1,7 +1,7 @@
 {
   "name": "@particle-academy/fancy-auto-common",
   "version": "0.1.2",
-  "description": "Shared headless primitives for autonomous UX drivers — the activity bus, effect-dispatch registry, per-actor undo stack, and presence types used by both agent-integrations (agent-driven UX) and fancy-flow's FlowRunnerUx (flow-driven UX). Zero runtime dependencies; React is an optional peer for the /react hook.",
+  "description": "Shared headless primitives for autonomous UX drivers \u2014 the activity bus, effect-dispatch registry, per-actor undo stack, and presence types used by both agent-integrations (agent-driven UX) and fancy-flow's FlowRunnerUx (flow-driven UX). Zero runtime dependencies; React is an optional peer for the /react hook.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Particle-Academy/fancy-auto-common.git"
@@ -41,7 +41,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "lint": "tsc --noEmit",
+    "lint": "tsc --noEmit && eslint .",
     "clean": "rm -rf dist",
     "prepublishOnly": "tsup"
   },
@@ -65,9 +65,12 @@
   },
   "devDependencies": {
     "@types/react": "^19.0.0",
+    "eslint": "^10.8.0",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "react": "^19.0.0",
     "tsup": "^8.0.0",
-    "typescript": "^5.7.0"
+    "typescript": "^5.7.0",
+    "typescript-eslint": "^8.65.0"
   },
   "publishConfig": {
     "access": "public"
